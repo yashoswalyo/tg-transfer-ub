@@ -1,0 +1,23 @@
+{
+	"name": "Telegram Slowest Transfer Bot",
+	"description": "Telegram Slowest Transfer Bot in Pyrogram by @YashOswalYO",
+	"keywords": [
+		"telegram",
+		"transfer",
+		"bot"
+	],
+	"repository": "https://github.com/yashoswalyo/tg-transfer-ub",
+	"website": "https://telegram.dog/yashoswalyo",
+	"stack": "heroku-20",
+	"env": {
+		"SESSION_STRING": {
+			"description": "add pyrogram v2 session string "
+		}
+	},
+	"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "free"
+		}
+	}
+}
